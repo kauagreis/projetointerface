@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>
+        Formulário
+    </h1>
+
+    <form action="formulario.html">
+        <fieldset>
+    <label for="">nome: <input type="name"></label>
+
+    <label for="">número: <input type="tel" placeholder="(xx) xxxxx-xxxx" maxlength="11"></label>
+
+    <br>
+
+    <label for="">e-mail: <input type="email" placeholder="usuario123@gmail.com"></label>
+
+  <label for="">  senha: <input type="password" placeholder="máx. 8 caracteres" maxlength="8"></label>
+  <label for="">
+    <p>Selecione A Sua  Raça:</p>
+   branco: <input type="radio">
+   <br>
+   preto: <input type="radio">
+   <br>
+   pardo: <input type="radio">
+   <br>
+   amarelo: <input type="radio">
+</label>
+<p>Digite a Data de Nascimento:</p>
+<label for=""> 
+   digite aqui: <input type="date">
+</label>
+
+<label for="">
+    <p>Cor Favorita:</p>
+  escolha aqui  <input type="color">
+</label>
+
+<label for="">
+    <p>Quando Você Começou o Teste?</p>
+    digite aqui: <input type="datetime-local">
+
+</label>
+    </fieldset>
+<p>Fale Sobre Você:</p>
+<textarea name="Anotações" id="" cols="80" rows="15"> </textarea>
+<p>Escolha uma das Opções Abaixo</p>
+torce para qual time?:<select name="escolha" id="">
+    <option value="nenhum">nenhum</option>
+    <option value="sao paulo">são paulo</option>
+    <option value="cruzeiro">cruzeiro</option>
+    <option value="vasco">vasco</option>
+    <option value="flamengo">flamengo</option>
+    <option value="palmeiras">palmeiras</option>
+</select>
+
+<p>    Caso Queira Limpar:</p>
+clique aqui: <input type="reset">
+
+<p>Caso Queira Enviar:</p>
+clique aqui: <input type="submit">
+
+<p>Verificação:</p>      
+está ciente do formulário? <input type="checkbox">
+
+    </form>
+</body>
+</html>

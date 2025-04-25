@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: blue;
+    padding: 50px;
+
+}
+
+main {
+    background-color: white;
+    margin:auto;
+    width: auto;
+    border-radius: 20px;
+    padding: 100px;
+}
+
+main h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 35pt;
+}
+
+main h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 20pt;
+}
+
+main h2 a {
+    text-decoration: none;
+}
+
+main h2 a:hover {
+    background-color: rgb(174, 174, 243);
+    border-radius: 5px;
+    padding: 2px;
+    color: rgb(5, 5, 158);
+}
