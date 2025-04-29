@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*Configurações gerais da página*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*Primeiras configurações*/
+body {
+    background-color: rgb(183, 232, 245);
+    color: rgb(117, 34, 34);
+
+}
+
+
+/*Estrutura do Menu*/
+#bodyindex{
+    background-color: rgb(171, 206, 235);
+    text-align: left;
+    border-width: 10px;
+    margin: 20px auto;   
+    border: rgb(54, 168, 54) solid 1px;
+}
+
+.menu{
+    list-style: none;
+    border: 2px solid black;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 2px solid brown;
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    color: blue;
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
